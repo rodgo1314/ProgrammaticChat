@@ -25,27 +25,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             if let user = user {
                 guard let appScene = (scene as? UIWindowScene) else {return}
                 
-                let tabController = MainTabBarController()
+                let homeTabController = MainTabBarController()
                 
                 self.window = UIWindow(frame: appScene.coordinateSpace.bounds)
                 self.window?.windowScene = appScene
-                self.window?.rootViewController = tabController
+                self.window?.rootViewController = homeTabController
                 self.window?.makeKeyAndVisible()
                 
                 
             }else if user == nil{
                 guard let appScene = (scene as? UIWindowScene) else {return}
                 
-                let tabController = LogRegTabBarController()
+                let registerVC = LoginVC()
+                registerVC.title = "Login"
                 
                 self.window = UIWindow(frame: appScene.coordinateSpace.bounds)
                 self.window?.windowScene = appScene
-                self.window?.rootViewController = tabController
+                self.window?.rootViewController = UINavigationController(rootViewController: registerVC)
                 self.window?.makeKeyAndVisible()
                 
             }
         })
     }
+    
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

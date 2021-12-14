@@ -12,6 +12,7 @@ class LogRegTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(named: "PrimaryBackground")
+        
         viewControllers = [createLoginVC(), createRegVC()]
 
 

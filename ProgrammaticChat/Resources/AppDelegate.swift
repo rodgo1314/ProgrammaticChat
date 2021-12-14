@@ -7,6 +7,10 @@
 
 import UIKit
 import Firebase
+import GoogleSignIn
+import FacebookCore
+import FacebookLogin
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +20,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        
+        //navigation colors
+        UIBarButtonItem.appearance().tintColor = UIColor(named: "AccentColor")
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor(named: "AccentColor")]
+        UIBarButtonItem.appearance().tintColor = UIColor(named: "AccentColor")
+
+        ApplicationDelegate.shared.application(
+            application,
+            didFinishLaunchingWithOptions: launchOptions
+        )
+        
+
+        
         return true
+    }
+    
+              
+    
+    //MARK: Google and Facebook Sign In
+    
+    @available(iOS 9.0, *)
+    func application(
+        _ app: UIApplication,
+        open url: URL,
+        options: [UIApplication.OpenURLOptionsKey : Any] = [:]
+    )
+    -> Bool {
+        
+        ApplicationDelegate.shared.application(
+            app,
+            open: url,
+            sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+            annotation: options[UIApplication.OpenURLOptionsKey.annotation]
+        )
+        
+        return GIDSignIn.sharedInstance.handle(url)
     }
 
     // MARK: UISceneSession Lifecycle

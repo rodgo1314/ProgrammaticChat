@@ -13,14 +13,16 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         view.backgroundColor = UIColor(named: "PrimaryBackground")
         viewControllers = [createHomeVC(),createProfileVC()]
+        
 
     }
     
     
     func createHomeVC() -> UINavigationController{
-        let viewController = ViewController()
-        viewController.title = "Home"
+        let viewController = ConversationsVC()
+        viewController.title = "Conversations"
         viewController.tabBarItem = UITabBarItem(title: "Messages", image: UIImage(systemName: "message.fill"), tag: 0)
+        
         return UINavigationController(rootViewController: viewController)
     }
     

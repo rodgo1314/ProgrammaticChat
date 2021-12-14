@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		50105B0C275AC7ED00B2FEA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B0B275AC7ED00B2FEA5 /* AppDelegate.swift */; };
 		50105B0E275AC7ED00B2FEA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B0D275AC7ED00B2FEA5 /* SceneDelegate.swift */; };
-		50105B10275AC7ED00B2FEA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B0F275AC7ED00B2FEA5 /* ViewController.swift */; };
+		50105B10275AC7ED00B2FEA5 /* ConversationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B0F275AC7ED00B2FEA5 /* ConversationsVC.swift */; };
 		50105B15275AC7F200B2FEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50105B14275AC7F200B2FEA5 /* Assets.xcassets */; };
 		50105B18275AC7F200B2FEA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50105B16275AC7F200B2FEA5 /* LaunchScreen.storyboard */; };
 		50105B21275AC94900B2FEA5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 50105B20275AC94900B2FEA5 /* FirebaseAnalytics */; };
@@ -24,16 +24,27 @@
 		50105B38275ACB8E00B2FEA5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B37275ACB8D00B2FEA5 /* RegisterVC.swift */; };
 		50105B3A275ACBA800B2FEA5 /* NewConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B39275ACBA800B2FEA5 /* NewConversationVC.swift */; };
 		50105B3C275ACBBC00B2FEA5 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B3B275ACBBC00B2FEA5 /* ProfileVC.swift */; };
-		50105B41275ACF1F00B2FEA5 /* LogRegTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B40275ACF1F00B2FEA5 /* LogRegTabBarController.swift */; };
 		50105B43275ACF4400B2FEA5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B42275ACF4400B2FEA5 /* MainTabBarController.swift */; };
 		50105B45275AD2E500B2FEA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50105B44275AD2E500B2FEA5 /* GoogleService-Info.plist */; };
+		50105B48275B6E6A00B2FEA5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B47275B6E6A00B2FEA5 /* StorageManager.swift */; };
+		50105B4A275B6EA800B2FEA5 /* RealDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B49275B6EA800B2FEA5 /* RealDatabaseManager.swift */; };
+		50105B4D275B6F4400B2FEA5 /* ChatAppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50105B4C275B6F4400B2FEA5 /* ChatAppUser.swift */; };
+		50105B50275C11B800B2FEA5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 50105B4F275C11B800B2FEA5 /* GoogleSignIn */; };
+		50997E09275CD571007C00E6 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 50997E08275CD571007C00E6 /* MessageKit */; };
+		50997E0C275CD5DE007C00E6 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 50997E0B275CD5DE007C00E6 /* SDWebImage */; };
+		50997E0F275CD666007C00E6 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 50997E0E275CD666007C00E6 /* JGProgressHUD */; };
+		50997E11275CE0AD007C00E6 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50997E10275CE0AC007C00E6 /* ChatVC.swift */; };
+		50A560742762250000738BB2 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A560732762250000738BB2 /* ConversationCell.swift */; };
+		50AA97FE2762405B0094BA1A /* PhotoViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AA97FD2762405A0094BA1A /* PhotoViewerVC.swift */; };
+		50E9B069275C197400AF699D /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 50E9B068275C197400AF699D /* FacebookCore */; };
+		50E9B06B275C197400AF699D /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 50E9B06A275C197400AF699D /* FacebookLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50105B08275AC7ED00B2FEA5 /* ProgrammaticChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50105B0B275AC7ED00B2FEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50105B0D275AC7ED00B2FEA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50105B0F275AC7ED00B2FEA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50105B0F275AC7ED00B2FEA5 /* ConversationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsVC.swift; sourceTree = "<group>"; };
 		50105B14275AC7F200B2FEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50105B17275AC7F200B2FEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50105B19275AC7F200B2FEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,9 +52,14 @@
 		50105B37275ACB8D00B2FEA5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		50105B39275ACBA800B2FEA5 /* NewConversationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationVC.swift; sourceTree = "<group>"; };
 		50105B3B275ACBBC00B2FEA5 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
-		50105B40275ACF1F00B2FEA5 /* LogRegTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRegTabBarController.swift; sourceTree = "<group>"; };
 		50105B42275ACF4400B2FEA5 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		50105B44275AD2E500B2FEA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		50105B47275B6E6A00B2FEA5 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		50105B49275B6EA800B2FEA5 /* RealDatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealDatabaseManager.swift; sourceTree = "<group>"; };
+		50105B4C275B6F4400B2FEA5 /* ChatAppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUser.swift; sourceTree = "<group>"; };
+		50997E10275CE0AC007C00E6 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		50A560732762250000738BB2 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		50AA97FD2762405A0094BA1A /* PhotoViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +68,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				50105B29275AC94900B2FEA5 /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				50E9B069275C197400AF699D /* FacebookCore in Frameworks */,
 				50105B2D275AC94900B2FEA5 /* FirebaseStorageCombine-Community in Frameworks */,
+				50997E09275CD571007C00E6 /* MessageKit in Frameworks */,
 				50105B21275AC94900B2FEA5 /* FirebaseAnalytics in Frameworks */,
 				50105B25275AC94900B2FEA5 /* FirebaseAuthCombine-Community in Frameworks */,
+				50E9B06B275C197400AF699D /* FacebookLogin in Frameworks */,
 				50105B27275AC94900B2FEA5 /* FirebaseDatabase in Frameworks */,
+				50997E0F275CD666007C00E6 /* JGProgressHUD in Frameworks */,
 				50105B2F275AC94900B2FEA5 /* FirebaseStorageSwift-Beta in Frameworks */,
 				50105B23275AC94900B2FEA5 /* FirebaseAuth in Frameworks */,
+				50997E0C275CD5DE007C00E6 /* SDWebImage in Frameworks */,
 				50105B2B275AC94900B2FEA5 /* FirebaseStorage in Frameworks */,
+				50105B50275C11B800B2FEA5 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +106,7 @@
 		50105B0A275AC7ED00B2FEA5 /* ProgrammaticChat */ = {
 			isa = PBXGroup;
 			children = (
+				50105B46275B6E5500B2FEA5 /* Managers */,
 				50105B30275ACB0B00B2FEA5 /* Resources */,
 				50105B33275ACB4A00B2FEA5 /* Models */,
 				50105B31275ACB2C00B2FEA5 /* Views */,
@@ -117,9 +140,12 @@
 			children = (
 				50105B3F275ACEF400B2FEA5 /* TabBars */,
 				50105B34275ACB6000B2FEA5 /* LogReg */,
-				50105B0F275AC7ED00B2FEA5 /* ViewController.swift */,
-				50105B39275ACBA800B2FEA5 /* NewConversationVC.swift */,
+				50105B0F275AC7ED00B2FEA5 /* ConversationsVC.swift */,
+				50A560732762250000738BB2 /* ConversationCell.swift */,
 				50105B3B275ACBBC00B2FEA5 /* ProfileVC.swift */,
+				50105B39275ACBA800B2FEA5 /* NewConversationVC.swift */,
+				50AA97FD2762405A0094BA1A /* PhotoViewerVC.swift */,
+				50997E10275CE0AC007C00E6 /* ChatVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -127,6 +153,7 @@
 		50105B33275ACB4A00B2FEA5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				50105B4C275B6F4400B2FEA5 /* ChatAppUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,10 +170,18 @@
 		50105B3F275ACEF400B2FEA5 /* TabBars */ = {
 			isa = PBXGroup;
 			children = (
-				50105B40275ACF1F00B2FEA5 /* LogRegTabBarController.swift */,
 				50105B42275ACF4400B2FEA5 /* MainTabBarController.swift */,
 			);
 			path = TabBars;
+			sourceTree = "<group>";
+		};
+		50105B46275B6E5500B2FEA5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				50105B47275B6E6A00B2FEA5 /* StorageManager.swift */,
+				50105B49275B6EA800B2FEA5 /* RealDatabaseManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +209,12 @@
 				50105B2A275AC94900B2FEA5 /* FirebaseStorage */,
 				50105B2C275AC94900B2FEA5 /* FirebaseStorageCombine-Community */,
 				50105B2E275AC94900B2FEA5 /* FirebaseStorageSwift-Beta */,
+				50105B4F275C11B800B2FEA5 /* GoogleSignIn */,
+				50E9B068275C197400AF699D /* FacebookCore */,
+				50E9B06A275C197400AF699D /* FacebookLogin */,
+				50997E08275CD571007C00E6 /* MessageKit */,
+				50997E0B275CD5DE007C00E6 /* SDWebImage */,
+				50997E0E275CD666007C00E6 /* JGProgressHUD */,
 			);
 			productName = ProgrammaticChat;
 			productReference = 50105B08275AC7ED00B2FEA5 /* ProgrammaticChat.app */;
@@ -205,6 +246,11 @@
 			mainGroup = 50105AFF275AC7ED00B2FEA5;
 			packageReferences = (
 				50105B1F275AC94900B2FEA5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				50105B4E275C11B700B2FEA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				50E9B067275C197300AF699D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				50997E07275CD570007C00E6 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				50997E0A275CD5DD007C00E6 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				50997E0D275CD666007C00E6 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
 			);
 			productRefGroup = 50105B09275AC7ED00B2FEA5 /* Products */;
 			projectDirPath = "";
@@ -233,15 +279,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50997E11275CE0AD007C00E6 /* ChatVC.swift in Sources */,
 				50105B3A275ACBA800B2FEA5 /* NewConversationVC.swift in Sources */,
-				50105B10275AC7ED00B2FEA5 /* ViewController.swift in Sources */,
+				50105B10275AC7ED00B2FEA5 /* ConversationsVC.swift in Sources */,
+				50105B4A275B6EA800B2FEA5 /* RealDatabaseManager.swift in Sources */,
 				50105B43275ACF4400B2FEA5 /* MainTabBarController.swift in Sources */,
+				50AA97FE2762405B0094BA1A /* PhotoViewerVC.swift in Sources */,
+				50105B48275B6E6A00B2FEA5 /* StorageManager.swift in Sources */,
+				50105B4D275B6F4400B2FEA5 /* ChatAppUser.swift in Sources */,
 				50105B3C275ACBBC00B2FEA5 /* ProfileVC.swift in Sources */,
+				50A560742762250000738BB2 /* ConversationCell.swift in Sources */,
 				50105B0C275AC7ED00B2FEA5 /* AppDelegate.swift in Sources */,
 				50105B36275ACB8300B2FEA5 /* LoginVC.swift in Sources */,
 				50105B0E275AC7ED00B2FEA5 /* SceneDelegate.swift in Sources */,
 				50105B38275ACB8E00B2FEA5 /* RegisterVC.swift in Sources */,
-				50105B41275ACF1F00B2FEA5 /* LogRegTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +514,46 @@
 				minimumVersion = 8.0.0;
 			};
 		};
+		50105B4E275C11B700B2FEA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		50997E07275CD570007C00E6 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		50997E0A275CD5DD007C00E6 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		50997E0D275CD666007C00E6 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		50E9B067275C197300AF699D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -505,6 +596,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 50105B1F275AC94900B2FEA5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseStorageSwift-Beta";
+		};
+		50105B4F275C11B800B2FEA5 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50105B4E275C11B700B2FEA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		50997E08275CD571007C00E6 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50997E07275CD570007C00E6 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		50997E0B275CD5DE007C00E6 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50997E0A275CD5DD007C00E6 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		50997E0E275CD666007C00E6 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50997E0D275CD666007C00E6 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		50E9B068275C197400AF699D /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50E9B067275C197300AF699D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		50E9B06A275C197400AF699D /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50E9B067275C197300AF699D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -26,6 +26,6 @@ The following functionality is completed:
 
 <img src='http://g.recordit.co/LX3CaebEke.gif' title='Login/Sign up with Facebook' width='' alt='Video Walkthrough' />
 
-<img src='http://g.recordit.co/XrKtKHgWoo.gif' title='Chat feature' width='' alt='Video Walkthrough' />
+<img src='https://github.com/rodgo1314/large_gifs/large1.gif' title='Chat feature' width='' alt='Video Walkthrough' />
 
-<vid src='http://g.recordit.co/DbbZyjjhv3.gif' title='Sending Photos' width='' alt='Video Walkthrough' />
+<img src='https://github.com/rodgo1314/large_gifs/large2.gif' title='Sending Photos' width='' alt='Video Walkthrough' />

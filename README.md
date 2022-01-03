@@ -22,10 +22,15 @@ The following functionality is completed:
 
 ## Video Walkthroughs of app
 
+##Signing up and uploading profile picture
 <img src='http://g.recordit.co/jBw4yYQYl4.gif' title='Signing Up and Uploading Picture' width='' alt='Video Walkthrough' />
 
+##Login/Sign up with Facebook
 <img src='http://g.recordit.co/LX3CaebEke.gif' title='Login/Sign up with Facebook' width='' alt='Video Walkthrough' />
 
-<img src='http://github.com/rodgo1314/large_gifs/blob/master/large1.gif?raw=true' title='Sending Messages' width='' alt='Sending Messages' />
+##Chat Feature 
+![Chat Feature](large1.gif)
 
-<img src='http://github.com/rodgo1314/large_gifs/blob/master/large2.gif?raw=true' title='Sending Photos' width='' alt='Sending Photos' />
+##Sending Images 
+![Sending Photos](large2.gif)
+

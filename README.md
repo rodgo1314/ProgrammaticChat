@@ -26,6 +26,6 @@ The following functionality is completed:
 
 <img src='http://g.recordit.co/LX3CaebEke.gif' title='Login/Sign up with Facebook' width='' alt='Video Walkthrough' />
 
-<img src='https://github.com?raw=true/rodgo1314/large_gifs/blob/master/large1.gif' title='Sending Messages' width='' alt='Sending Messages' />
+<img src='https://github.com/rodgo1314/large_gifs/blob/master/large1.gif' title='Sending Messages' width='' alt='Sending Messages' />
 
-<img src='https://github.com?raw=true/rodgo1314/large_gifs/blob/master/large2.gif' title='Sending Photos' width='' alt='Sending Photos' />
+<img src='https://github.com/rodgo1314/large_gifs/blob/master/large2.gif' title='Sending Photos' width='' alt='Sending Photos' />

@@ -28,4 +28,4 @@ The following functionality is completed:
 
 <img src='http://g.recordit.co/XrKtKHgWoo.gif' title='Chat feature' width='' alt='Video Walkthrough' />
 
-<img src='http://g.recordit.co/DbbZyjjhv3.gif' title='Sending Photos' width='' alt='Video Walkthrough' />
+<vid src='http://g.recordit.co/DbbZyjjhv3.gif' title='Sending Photos' width='' alt='Video Walkthrough' />
